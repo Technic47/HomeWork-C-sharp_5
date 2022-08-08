@@ -18,9 +18,6 @@ for (int i = 0; i < N; i++)
 }
 
 Console.Write($"Your array: ");
-for (int i = 0; i < N; i++)
-{
-    Console.Write($"{array[i]}; ");
-}
+for (int i = 0; i < N; i++) Console.Write($"{array[i]}; ");
 
 Console.WriteLine($"\nDifferense between max and min: {max - min}");
